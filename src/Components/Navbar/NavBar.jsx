@@ -1,6 +1,7 @@
 import React, { useState, useContext, useRef } from 'react' 
 import './NavBar.css'
 import logo from '../Assets/logo.png'
+import new_logo from '../Assets/Lebron_headpage_copy.jpg'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from "react-router-dom";
 import { ShopContext } from '../../Context/ShopContext';
@@ -21,7 +22,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={logo} alt="" />
-        <p>SHOPPER</p>
+        <p>WOOLLOO</p>
       </div>
       <img className='nav-dropdown' onClick={dropdown_toggle} src={dropdown_icon} alt=""/>
       <ul ref={menuRef} className="nav-menu"> 
