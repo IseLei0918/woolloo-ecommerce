@@ -35,7 +35,7 @@ const ProductDisplay = (props) => {
           <div className="productdisplay-right-price-new">${product.new_price}</div>
         </div>
         <div className="productdisplay-right-description">
-          Blank Description Yet
+          {product.description}
         </div>
         <div className="productdisplay-right-size">
           <h1>Select Size:</h1>
